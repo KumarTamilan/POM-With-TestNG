@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+//25.What is PARALLEL TEST ? 
+	//-How to perform CLASS level PARALLEL TEST ?
+	
+<suite parallel="classes" name="Suite">
+	<test thread-count="5" parallel="classes" name="Test">
+		<classes>
+			<class name="org.testNG.ClassLevelParallelTest4"></class>
+      			<class name="org.testNG.ClassLevelParallelTest1"/>
+      			<class name="org.testNG.ClassLevelParallelTest2"/>
+      			<class name="org.testNG.ClassLevelParallelTest3"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		
+		<parameter name="2" value="Mohan123"></parameter>
+		<parameter name="1" value="mohan123@gmail.com"></parameter>
+		<classes>
+			<class name="org.dataDriven.Dataprovider"></class>
+			</classes>
+		</test>
+	</suite>

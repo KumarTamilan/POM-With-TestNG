@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+//23.What is PARAMETERIZED TEST ?How to perform ?
+
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="username1" value="kumaran@gmail.com"></parameter>
+		<parameter name="password1" value="Kumaran@Test"></parameter>
+		<classes>
+			<class name="org.testNG.ParameterizedTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+//26.What is CROSSBROWSER TEST ?How to perform ?
+
+<suite parallel="tests"  name="Suite">
+  <test thread-count="5" parallel="tests" name="QAData">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <parameter name="username1" value="kumaran123@gmail.com"></parameter>
+	  <parameter name="password1" value="Kumaran123"></parameter>
+	  <parameter name="tagName1" value="div"></parameter>
+    <classes>
+      <class name="org.testNG.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" parallel="tests" name="DevData">
+	  <parameter name="browser" value="firefox"></parameter>
+	  <parameter name="username1" value="karuppannan123@gmail.com"></parameter>
+	  <parameter name="password1" value="Karuppannan123"></parameter>
+	  <parameter name="tagName1" value="li"></parameter>
+    <classes>
+      <class name="org.testNG.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" parallel="tests" name="DesigningData">
+	  <parameter name="browser" value="edge"></parameter>
+	  <parameter name="username1" value="amutha123@gmail.com"></parameter>
+	  <parameter name="password1" value="Amutha123"></parameter>
+	  <parameter name="tagName1" value="a"></parameter>
+    <classes>
+      <class name="org.testNG.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

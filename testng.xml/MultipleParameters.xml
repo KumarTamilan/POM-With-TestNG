@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+//30.How to pass the Multiple Datas in same TestMethods at TestNG.xml File Using Different Tests?
+//31.How to pass the TagName in Parameters ?
+<suite  name="Suite">
+  <test thread-count="5" name="QAData">
+	  <parameter name="username1" value="kumaran123@gmail.com"></parameter>
+	  <parameter name="password1" value="Kumaran123"></parameter>
+	  <parameter name="tagName1" value="div"></parameter>
+    <classes>
+      <class name="org.testNG.MultipleParameters"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="DevData">
+	  <parameter name="username1" value="karuppannan123@gmail.com"></parameter>
+	  <parameter name="password1" value="Karuppannan123"></parameter>
+	  <parameter name="tagName1" value="li"></parameter>
+    <classes>
+      <class name="org.testNG.MultipleParameters"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="DesigningData">
+	  <parameter name="username1" value="amutha123@gmail.com"></parameter>
+	  <parameter name="password1" value="Amutha123"></parameter>
+	  <parameter name="tagName1" value="a"></parameter>
+    <classes>
+      <class name="org.testNG.MultipleParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test1">
+		<parameter name="usernameField" value="kumaran"></parameter>
+		<parameter name="passwordField" value="Kumaran@Test"></parameter>
+		<classes>
+			<class name="org.testNG2.ParameterizedTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Test2">
+		<parameter name="usernameField" value="karuppannan"></parameter>
+		<parameter name="passwordField" value="Karuppannan@Test"></parameter>
+		<classes>
+			<class name="org.testNG2.ParameterizedTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Test3">
+		<parameter name="usernameField" value="amutha"></parameter>
+		<parameter name="passwordField" value="Amutha@Test"></parameter>
+		<classes>
+			<class name="org.testNG2.ParameterizedTest"></class>
+		</classes>
+	</test>
+
+</suite>
+

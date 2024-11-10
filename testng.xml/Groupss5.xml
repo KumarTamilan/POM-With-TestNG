@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+19.What is GROUP TEST & GROUP OF GROUP TEST? How to perform ?
+				GROUP OF GROUP TEST : 
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="Smoke">
+				<include name="RegistrationPage"></include>
+			</define>
+			<define name="Sanity">
+				<include name="LoginPage"></include>
+			</define>
+			<define name="Regression">
+				<include name="RegistrationPage"></include>
+				<include name="LoginPage"></include>
+			</define>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="packageName.className"></class>
+		</classes>
+	</test>
+</suite>
+
+

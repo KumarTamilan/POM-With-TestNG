@@ -1,96 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T01:05:36 IST" name="Suite" finished-at="2024-11-07T01:05:50 IST" duration-ms="14293">
+  <suite started-at="2024-11-14T15:35:50 IST" name="Default suite" finished-at="2024-11-14T15:35:53 IST" duration-ms="3661">
     <groups>
     </groups>
-    <test started-at="2024-11-07T01:05:36 IST" name="QAData" finished-at="2024-11-07T01:05:41 IST" duration-ms="4981">
-      <class name="org.testNG.MultipleParameters">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testNG.MultipleParameters@4803b726]" started-at="2024-11-07T01:05:36 IST" name="browserLaunch" finished-at="2024-11-07T01:05:40 IST" duration-ms="3827" status="PASS">
+    <test started-at="2024-11-14T15:35:50 IST" name="Default test" finished-at="2024-11-14T15:35:53 IST" duration-ms="3661">
+      <class name="org.restAssured.NonBddPutRequest">
+        <test-method signature="putRequest()[pri:0, instance:org.restAssured.NonBddPutRequest@611889f4]" started-at="2024-11-14T15:35:50 IST" name="putRequest" finished-at="2024-11-14T15:35:53 IST" duration-ms="3626" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="logInField(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testNG.MultipleParameters@4803b726]" started-at="2024-11-07T01:05:40 IST" name="logInField" finished-at="2024-11-07T01:05:41 IST" duration-ms="1117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumaran123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumaran123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[div]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInField -->
-      </class> <!-- org.testNG.MultipleParameters -->
-    </test> <!-- QAData -->
-    <test started-at="2024-11-07T01:05:41 IST" name="DevData" finished-at="2024-11-07T01:05:46 IST" duration-ms="4685">
-      <class name="org.testNG.MultipleParameters">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testNG.MultipleParameters@771a660]" started-at="2024-11-07T01:05:41 IST" name="browserLaunch" finished-at="2024-11-07T01:05:43 IST" duration-ms="2285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="logInField(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testNG.MultipleParameters@771a660]" started-at="2024-11-07T01:05:43 IST" name="logInField" finished-at="2024-11-07T01:05:46 IST" duration-ms="2399" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[karuppannan123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Karuppannan123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[li]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInField -->
-      </class> <!-- org.testNG.MultipleParameters -->
-    </test> <!-- DevData -->
-    <test started-at="2024-11-07T01:05:46 IST" name="DesigningData" finished-at="2024-11-07T01:05:50 IST" duration-ms="4531">
-      <class name="org.testNG.MultipleParameters">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testNG.MultipleParameters@942a29c]" started-at="2024-11-07T01:05:46 IST" name="browserLaunch" finished-at="2024-11-07T01:05:48 IST" duration-ms="1952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="logInField(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testNG.MultipleParameters@942a29c]" started-at="2024-11-07T01:05:48 IST" name="logInField" finished-at="2024-11-07T01:05:50 IST" duration-ms="2571" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amutha123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amutha123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInField -->
-      </class> <!-- org.testNG.MultipleParameters -->
-    </test> <!-- DesigningData -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- putRequest -->
+      </class> <!-- org.restAssured.NonBddPutRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
